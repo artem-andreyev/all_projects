@@ -1,0 +1,56 @@
+.rectangle {
+    position: relative; /* Позиционирование элемента абсолютно */
+    left: 1px; /* Горизонтальное положение (x) */
+    top: 8px; /* Вертикальное положение (y) */
+    width: 1219px; /* Ширина (w) */
+    height: 84px; /* Высота (h) */
+}
+
+.vector {
+    position: relative; /* Позиционирование элемента как относительное к его обычному положению */
+    bottom: 19px;
+    top: 20px;
+    left: 55px;
+    right: 980px;
+    width: 183.96px;
+    height: 45.05px;
+}
+
+.vector1 {
+    position: relative; /* Позиционирование элемента относительно его обычного местоположения */
+    left: 50px; /* Горизонтальное положение (x) */
+    top: -25px; /* Вертикальное положение (y) */
+    width: 44.99px; /* Ширина (w) */
+    height: 44.96px; /* Высота (h) */
+    right: 0;
+}
+
+.img-7 {
+    position: relative; /* Позиционирование элемента абсолютно */
+    left: 1px; /* Горизонтальное положение (x) */
+    top: -110px; /* Вертикальное положение (y) */
+    width: 1219px; /* Ширина (w) */
+    height: 403px; /* Высота (h) */
+}
+
+.PiperNetIsHere {
+    position: relative; /* Позиционирование элемента абсолютно */
+    font-family: 'Roboto', sans-serif; /* Шрифт Roboto или другой выбранный шрифт */
+    font-size: 72px; /* Размер шрифта */
+    left: 315px; /* Горизонтальное положение (x) */
+    top: -370px; /* Вертикальное положение (y) ПОСТАВЬ ТЕКСТ ПОВЫШЕ !!! */
+    width: 1219px; /* Ширина (w) */
+    height: -83px; /* Высота (h) */
+    color: white;
+    font-style: normal;
+}
+
+.the_problem {
+    position:relative;
+    top: 100px;
+    right: 110px;
+    left: 100px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}

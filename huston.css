@@ -1,0 +1,50 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-family: sans-serif;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+  }
+
+h1 {
+   font-size: 32px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.image-caption {
+    font-style: italic;
+    display: block;
+    text-align: center;
+}
+
+em {
+    margin-left: 0;
+}
+
+
+.image-container{
+    text-align: center;
+    flex: 1;
+}
+
+.img-container img{
+    max-width: 100%;
+    float: right;
+}
+
+.image-container .image-caption{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.float-right {
+    float: right; /* Смещает изображение вправо */
+    margin-left: 10px; /* Опционально: добавляет отступ между текстом и картинкой */
+  }
