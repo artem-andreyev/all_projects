@@ -19,7 +19,7 @@ module.exports = {
 	],
 	"parserOptions": {
 		"ecmaVersion": "latest",
-		"sourceType": "module"
+		"sourceType": "module",
 	},
 	"rules": {
 		"indent": [
@@ -40,6 +40,6 @@ module.exports = {
 		],
 		"no-unused-vars": [
 			"warn"
-		]
+		],
 	}
 };
