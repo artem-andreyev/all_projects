@@ -1,9 +1,9 @@
 let numberOfFilms = +prompt("Сколько фильмов вы посмотрели?", "");
 
-personalMobieDb: {
+const personalMovieDB = {
     count: numberOfFilms,
     movies: {},
-    actors: {},
+    actors: {}, 
     genres: [],
     privat: false
 };
@@ -17,3 +17,5 @@ personalMovieDB.movies[question] = question_1;
 personalMovieDB.movies[question2] = question_2;
 
 console.log(personalMovieDB);
+
+// JavaScript : Cannot open local file - Chrome: Not allowed to load local resource в браузере
