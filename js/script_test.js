@@ -424,3 +424,183 @@
 
 // john.sayHello();
 
+// Упражнение по написанию кода 13!!!
+
+// const shoppingMallData = {
+//     shops: [
+//         {
+//             width: 10,
+//             length: 5,
+//             height: 3 // Add the height property here
+//         },
+//         {
+//             width: 15,
+//             length: 7,
+//             height: 3 // Add the height property here
+//         },
+//         {
+//             width: 20,
+//             length: 5,
+//             height: 3 // Add the height property here
+//         },
+//         {
+//             width: 8,
+//             length: 10,
+//             height: 3 // Add the height property here
+//         }
+//     ],
+//     height: 5,
+//     moneyPer1m3: 30,
+//     budget: 50000
+// };
+
+// function isBudgetEnough(data) {
+//     let totalCost = 0;
+
+//     data.shops.forEach(({ width, length, height }) => {
+//         const shopVolume = width * length * height;
+//         const shopCost = shopVolume * data.moneyPer1m3;
+//         totalCost += shopCost;
+//     });
+
+//     if (totalCost <= data.budget)  {
+//         return "Бюджета недостаточно";
+//     } else {
+//         return "Бюджета достаточно";
+//     }
+// }
+
+// const result = isBudgetEnough(shoppingMallData);
+// console.log(result);
+
+// To String
+
+// 1)
+// console.log(typeof(String(null)));
+// console.log(typeof(String(4)));
+
+// // 2)
+// console.log(typeof(5 + ""));
+
+// const num = 5;
+// console.log("https://vk.com/catalog/"+ num);
+
+// const fontSize = 26 + "px";
+// console.log(fontSize);
+
+// // To Number
+
+// // 1)
+// console.log(typeof(Number("4")));
+
+// // 2)
+// console.log(typeof(+"5"));
+
+// // 3)
+// console.log(typeof(parseInt("15px", 10)));
+
+// let answ = +prompt("Hello", "");
+
+// // To boolean
+
+// // 0, "", null, undefined, NaN; // Всегда False
+
+// // 1)
+// let switcher = null;
+
+// if (switcher) {
+//     console.log("Working...");
+// }
+
+// switcher = 1;
+
+// if (switcher) {
+//     console.log("Working...");
+// }
+
+// // 2)
+// console.log(typeof(Boolean("4")));
+
+// // 3)
+// console.log(typeof(!!"44444"));
+
+// let number = 5; debugger // Приоритет 3
+
+// function logNumber() {
+//     let number = 4; debugger // Приоритет 1
+//     console.log(number);
+
+// }
+
+// number = 6; // Приоритет 2
+
+// logNumber(); debugger
+
+// number = 8; // Приоритет 2
+
+// logNumber(); debugger
+
+// function createCounter() {
+//     let counter = 0; // с1 = 1, c2 = 2, c3 = 3, возвращает каждый раз новое значение из за функции increment()
+
+//     const myFunction = function() {debugger
+//         counter = counter + 1;debugger
+//         return counter;debugger
+//     };
+
+//     return myFunction;
+// }
+// debugger
+// const increment = createCounter();debugger
+// const c1 = increment();debugger
+// const c2 = increment();debugger
+// const c3 = increment();debugger
+
+// console.log(c1, c2, c3);
+
+// {
+//     let msg = "Hello"; // Доступна только внутри своего лексического окружения (скобок), нельзя использовать снаружи
+// }
+
+// console.log(msg);
+
+// for (let i = 0; i < 9; i ++) {
+//     for (let j = 0; j < 0; j++) {
+//         let num = 3; // Существует только внутри второго цикла
+//     }
+
+//     console.log(num);
+// }
+
+// Задачи с собеседований!!!
+
+// let x = 5;
+// alert(x++); // Выведет 5
+
+// [] + false - null + true;
+// console.log([] + false - null + true); // Выводит NaN, string
+
+// let y = 1;
+// let x = y = 2;
+// alert(x); // Выводит 2!
+
+// console.log([] + 1 + 2); // Выводит 12!
+
+// alert("1"[0]); // Выводит 1!
+
+// console.log(2 && 1 && null && 0 && undefined); // Выводит null, и запинается на лжи!
+
+// console.log(!! (1 && 2) === (1 && 2)); // Два !! превратили в булиновое значение первое выражение!
+
+// //               3
+// alert(null || 2 && 3 || 4); // Или запинается на правде! Выводит 3!
+
+// const a = [1, 2, 3];
+// const b = [1, 2, 3]; // a не равно b
+// console.log(a == b);
+
+// alert(+"Infinity"); // Тип данных: number, выведет: Infinity!
+
+// console.log("Ёжик" > "яблоко"); // Посимвольное сравнение, я - последняя буква в алфавите, выведет: false
+
+// console.log (0 || "" || 2 || undefined || true || false); // Выведет 2!
